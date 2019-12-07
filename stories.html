@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <title>Stories. Артём</title>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
+	<link rel="stylesheet" href="css/style.css"/>
+    
+    <meta name="description" content="Изготовление мебели на заказ.">
+    <meta name="keywords" content="" />
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
+    
+    <link rel="image_src" href="https://artemka833.itsinsta.site/img/og/og.jpg" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://artemka833.itsinsta.site" />
+    <meta property="og:image" content="https://artemka833.itsinsta.site/img/og/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="150"/>
+    <meta property="og:image:height" content="150"/>
+    <meta property="og:title" content="Артём" />
+    <meta property="og:description" content="Изготовление мебели на заказ." />
+    <meta property="og:locale" content="Ru-ru" />
+    <meta property="og:site_name" content="artemka833" />
+
+    <!--modernizr-->
+	<script src="js/vendors/modernizr-custom.js"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+    <noscript>
+		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
+    </noscript>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__left">
+						<div class="header__logo">
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ab76336246b2c231e8e879b74e729c41/5E72DEE0/t51.2885-19/s150x150/37786430_585923371803082_6892514343540228096_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="Артём" /></div>
+							<div class="header__logo-txt">artemka833</div>
+						</div>
+						<div class="header__title">Артём</div>
+					</div>
+				</div>
+			</div>
+		</header>	
+		<div class="main-sec">
+			<div class="container">
+				<div class="main-sec__wrap">
+					<div class="main-sec__txt">
+						<p>&nbsp;</p>
+						<div class="search">
+							<input type="search" class="input search__input" placeholder="Story">
+							<button id="btn_save" class="btn search__btn" type="submit" title="Сохранить"><i class="fa fa-save" aria-hidden="true"></i></button>
+							<p>&nbsp;</p>
+							<button id="btn_delete" class="btn search__btn" type="submit" title="Удалить"><i class="fa fa-remove" aria-hidden="true"></i></button>
+							<p>&nbsp;
+								<div id="choosen">0</div> / <div id="total">0</div>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="stories">
+			<div class="container">
+				<div class="stories__slider-wrap">
+					<div class="stories__slider" id="js-stories-slider">
+						<div class="swiper-wrapper">
+						</div>
+					</div>
+					<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+					<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="items" id="js-items">
+			<div class="container">
+				<div class="items-main" id="js-items-main">
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5vnudWpk-8" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/70677746_184662189375565_4555676363257486707_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&oh=ca77fa65dab0c4c512b9438b274c9a41&oe=5E74D15D" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5vnkuvpJTD" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/72781850_153798549302146_8443616493761593604_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&oh=3a48095e13ce026806d6b261517eeb32&oe=5E893CD5" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5dSV19pDcN" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/77311062_571886896960485_6625759854937612747_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=109&oh=71dc24110d6f5c8b8b8d0c2ebca091b7&oe=5E755829" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="kupe-vlg-dotru" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/72980103_826935721057441_4423008985218373520_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&oh=eb59b4742fb6c909f9f15981b4d39484&oe=5E6F44AF" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Kupe-vlg.ru">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5Na9lyJfkm" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/75523338_587995978638790_1424949540931740905_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&oh=1e7a35fe26a1651fac09b0b26b8b217c&oe=5E8BC6ED" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5NafVNJJMB" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/75448875_803730766742962_1598896935054098725_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&oh=bfe09ddc9c860535b2d4e153b07b8719&oe=5E846A6E" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5NaSOFpdzx" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/73372150_721015485078649_1902822040702982008_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&oh=16b627b676e12ee526ae89cf93d8112d&oe=5DEDCFB1" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5NWXlupf6j" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/74642756_723352744841302_1118031795484255631_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&oh=d4b5cff91fafa2944351de5f8d2a2bd4&oe=5E886C35" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5MuNsfpE6q" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/73372168_167824250990340_4784726787717260888_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100&oh=3989b019b8c570f6d482e500cd6af6c3&oe=5E7323B2" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5MuDgsJiPX" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/76918395_465565197413338_659740953009836546_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&oh=f76b36dbefe86121a8e19c3ca0f7806d&oe=5E6BD6DF" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5Mt5NNJ5lg" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/75388573_1167379480138632_1230027449729942463_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100&oh=68f1fd8d2fc79ae5cd794dabcac4afc2&oe=5E7058A0" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5LYFceJtZA" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/75210502_153726139213433_8303033460143950478_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105&oh=ff72f3b724c2b90680d1bcf0955a6056&oe=5DEDCB2E" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5KoddkptD7" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/77270258_418335589093837_1507854087276277348_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&oh=91b9f460ebca23a12fb1bf6ed28cdc8b&oe=5DEE107E" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5ItXOWpIWv" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/73393289_2518962518316291_4724920464953943315_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&oh=fa2c83171fa33f9b88ca3e112c808abf&oe=5E70CDE9" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5ItHIYprrI" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/71145116_214050632924773_5565376745876132233_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&oh=fc2984735e772fabaeff15d01df19fa2&oe=5E868BC2" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5IsShjJfcI" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/73385854_500689710798874_1319819054448272045_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&oh=806bcc71c453d50d95567b38dc3b8d45&oe=5E694155" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="www-dotkupe-vlg-dotru" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/73470552_140586107351508_4383661272404200465_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100&oh=fd75679b200fca078d001481e89d32eb&oe=5E73C3A3" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="Www.kupe-vlg.ru">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+					<div class="items-item">
+						<label class="items-item__wrap items-item__check">
+							<input id="B5BOEemJZ_J" type="checkbox" />
+							<div class="items-item__pic">
+								<img class="" src="img/placeholder.png" data-src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/72158970_486216828651966_7146198540699848340_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&oh=0d57737da732e541850404bb8c3f2940&oe=5E7BB923" onerror="this.onerror=null; this.src='img/placeholder.png'" alt="">
+								<ul class="items-item__taglist">
+								</ul>
+							</div>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!--swiper-->
+	<script src="js/vendors/swiper.min.js"></script>
+	<!--jQuery-->
+	<script src="js/vendors/jquery.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="js/vendors/jquery.lazyloadxt.js"></script>
+	<!--init-->
+	<script src="js/jquery.init.js"></script>
+	<!--my scripts-->
+	<script src="js/jquery.main.js"></script>
+
+	<script type="text/javascript">
+var currentTitle = '';
+var tags = {
+};
+
+function cleanupItems() {
+	$(".items-item").each(function() {
+		$(this).find("input").prop("checked", false);
+	});
+}
+
+function refreshStories() {
+	$(".stories__slide").each(function() {
+		var checkbox = $(this).find("input");
+
+		if ($(this).prop("title") != currentTitle) {
+			checkbox.prop("checked", false);
+		} else if (!$(this).is(':checked')) {
+			checkbox.prop("checked", true);
+		}
+	});
+
+	resizeSwiper();
+}
+
+function refreshChoosen() {
+	if (currentTitle == ''  || tags[currentTitle] == null) {
+		$("#choosen").text(0);
+	} else {
+		$("#choosen").text(tags[currentTitle].length);
+	}
+}
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+
+var storyClick = function () {
+	var title = $(this).closest(".stories__slide").prop("title");
+	if ($(this).is(':checked')) {
+		currentTitle = title;
+
+		refreshStories();
+
+		// Set all choosen blocks.
+		if (tags[currentTitle] != null) {
+			$(".items-item").each(function() {
+				var checkbox = $(this).find("input");
+				checkbox.prop("checked", $.inArray(checkbox.prop("id"), tags[currentTitle]) !== -1);
+			});
+		} else {
+			cleanupItems();
+		}
+	} else {
+		currentTitle = '';
+
+		cleanupItems();
+	}
+	$(".search__input").val(currentTitle);
+	refreshChoosen();
+}
+
+function setStoryBackground(title) {
+	$(".stories__slide").each(function() {
+		if ($(this).prop("title") == title) {
+			var divPic = $(this).find('.stories__slide-pic');
+
+			var img = getStoryBackground(title);
+			divPic.css("background-image", "url(" + img + ")");
+		}
+	});
+}
+
+function getStoryBackground(title) {
+	if (title == null) {
+		return null;
+	}
+
+	var tag = tags[title][0];
+
+	var item = $(".items-item").filter(function() {
+		return $(this).find("input").prop("id") == tag;
+	}).first();
+
+	var url = item.find("img").attr('data-src');
+	if (typeof url !== typeof undefined && url !== false) {
+		return url;
+	}
+	return item.find("img").prop('src');
+}
+
+function addStory(title) {
+	$(".swiper-wrapper").prepend(`
+							<div class="swiper-slide">
+								<div class="stories__slide" title="` + title + `">
+									<label class="stories__slide__check">
+										<input type="checkbox" />
+										<div class="stories__slide-pic" style=""></div>
+										<div class="stories__slide-txt">` + title + `</div>
+									</label>
+								</div>
+							</div>
+`);
+	var added = $(".swiper-slide").first();
+	added.width(added.height());
+	added.find("input").click(storyClick);
+}
+
+function loadStories() {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories",
+		type: "GET",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); },
+		success: function (data) { 
+			tags = {};
+			$(".stories__slide").remove();
+
+			$.each(data, function(index, element) {
+				tags[element.title] = element.posts;
+
+				addStory(element.title);
+
+				setStoryBackground(element.title);
+			});
+
+			setTimeout(function(){
+				resizeSwiper();
+			}, 1000);
+		}
+	});
+}
+
+function linkStoryPost(story, post) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story + "/link/" + post,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function unlinkStoryPost(story, post) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story + "/unlink/" + post,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function createStory(story) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function renameStory(story, newStory) {
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + story + "/rename/" + newStory,
+		type: "POST",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+function resizeSwiper(){
+	swiper.update();
+}
+
+function deleteStory(storyTitle) {
+	tags[storyTitle] = [];
+
+	var story = $(".stories__slide").filter(function() {
+		return $(this).prop("title") == storyTitle;
+	}).first().parent();
+			
+	story.remove();
+
+	cleanupItems();
+
+	resizeSwiper();
+
+	if (key == null) {
+		return;
+	}
+
+	$.ajax({
+		url: "https://admapi.itsinsta.site/api/stories/" + storyTitle,
+		type: "DELETE",
+		dataType: 'json',
+		beforeSend: function(xhr) { xhr.setRequestHeader('key', key); }
+	});
+}
+
+$(document).ready(function() {
+	key = getUrlParameter("key");
+
+	loadStories();
+
+	$("#total").text($(".items-item").length);
+
+    $(".stories__slide").each(function() {
+		$(this).find("input").click(storyClick);
+	});
+
+    $(".items-item").each(function() {
+		$(this).find("input").click(function() {
+			if (currentTitle != '') {
+				var id = $(this).prop("id");
+
+				if ($(this).is(':checked')) {
+					if (tags[currentTitle] == null) {
+						tags[currentTitle] = [ id ];
+					} else {
+						tags[currentTitle] = $.merge(tags[currentTitle], [ id ]);
+					}
+
+					linkStoryPost(currentTitle, id);
+				} else {
+					tags[currentTitle] = $(tags[currentTitle]).not([ id ]).get();
+
+					unlinkStoryPost(currentTitle, id);
+				}
+
+				if (tags[currentTitle].length == 1) {
+					setStoryBackground(currentTitle);
+				}
+
+				$("#choosen").text(tags[currentTitle].length);
+			} else {
+				$(this).prop("checked", false);
+			}
+		});
+	});
+
+	$("#btn_save").click(function(){
+		var newTitle = $(".search__input").val();
+
+		if (currentTitle != '' && newTitle != '') {
+			tags[newTitle] = tags[currentTitle];
+
+			var story = $(".stories__slide").filter(function(){
+				return $(this).prop("title") == currentTitle;
+			}).first();
+			story.prop("title", newTitle);
+
+			story.find(".stories__slide-txt").text(newTitle);
+
+			renameStory(currentTitle, newTitle);
+
+			currentTitle = newTitle;
+		} else if (currentTitle != '' && newTitle == '') {
+			deleteStory(currentTitle);
+
+			currentTitle = '';
+			cleanupItems();
+		} else if (currentTitle == '' && newTitle != '') {
+			var stories = $(".stories__slide").filter(function() {
+				return $(this).prop("title") == newTitle;
+			});
+
+			if (stories.length == 0) {
+				currentTitle = newTitle;
+
+				addStory(newTitle);
+
+				refreshStories();
+
+				createStory(currentTitle);
+			}
+		}
+	});
+
+	$("#btn_delete").click(function(){
+		if (currentTitle == '') {
+			return;
+		}
+
+		deleteStory(currentTitle);
+
+		currentTitle = '';
+		cleanupItems();
+
+		$(".search__input").val('');
+	});
+});
+	</script>
+</body>
+</html>
